@@ -28,6 +28,7 @@
 		D75FFDD120EDE54A002D52CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75FFDD320EDE54A002D52CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75FFDD420EDE54A002D52CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75FFDFA20EDE9CA002D52CD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,256 @@
 		D75FFDC120EDE54A002D52CD /* BWStarry1604C */ = {
 			isa = PBXGroup;
 			children = (
+				D75FFDF720EDE970002D52CD /* Code */,
+				D75FFDD320EDE54A002D52CD /* Info.plist */,
+				D75FFDCB20EDE54A002D52CD /* BWStarry1604C.xcdatamodeld */,
+			);
+			path = BWStarry1604C;
+			sourceTree = "<group>";
+		};
+		D75FFDDB20EDE7F8002D52CD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDDD20EDE7FB002D52CD /* Model */,
+				D75FFDDE20EDE7FC002D52CD /* View */,
+				D75FFDDC20EDE7FA002D52CD /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D75FFDDC20EDE7FA002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDDD20EDE7FB002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDDE20EDE7FC002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDDF20EDE96D002D52CD /* ShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDE020EDE96D002D52CD /* Controller */,
+				D75FFDE120EDE96D002D52CD /* Model */,
+				D75FFDE220EDE96D002D52CD /* View */,
+			);
+			path = ShoppingMall;
+			sourceTree = "<group>";
+		};
+		D75FFDE020EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDE120EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDE220EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDE320EDE96D002D52CD /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDE420EDE96D002D52CD /* Controller */,
+				D75FFDE520EDE96D002D52CD /* Model */,
+				D75FFDE620EDE96D002D52CD /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		D75FFDE420EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDE520EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDE620EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDE720EDE96D002D52CD /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDE820EDE96D002D52CD /* Controller */,
+				D75FFDE920EDE96D002D52CD /* Model */,
+				D75FFDEA20EDE96D002D52CD /* View */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		D75FFDE820EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDE920EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDEA20EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDEB20EDE96D002D52CD /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDEC20EDE96D002D52CD /* Controller */,
+				D75FFDED20EDE96D002D52CD /* Model */,
+				D75FFDEE20EDE96D002D52CD /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		D75FFDEC20EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDED20EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDEE20EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDEF20EDE96D002D52CD /* LiveBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDF020EDE96D002D52CD /* Controller */,
+				D75FFDF120EDE96D002D52CD /* Model */,
+				D75FFDF220EDE96D002D52CD /* View */,
+			);
+			path = LiveBroadcast;
+			sourceTree = "<group>";
+		};
+		D75FFDF020EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDF120EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDF220EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDF320EDE96D002D52CD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDF420EDE96D002D52CD /* Controller */,
+				D75FFDF520EDE96D002D52CD /* Model */,
+				D75FFDF620EDE96D002D52CD /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D75FFDF420EDE96D002D52CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75FFDF520EDE96D002D52CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75FFDF620EDE96D002D52CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75FFDF720EDE970002D52CD /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				D75FFDF920EDE985002D52CD /* OtherFiles */,
+				D75FFDF820EDE97C002D52CD /* Tool */,
+				D75FFDEB20EDE96D002D52CD /* Guide */,
+				D75FFDEF20EDE96D002D52CD /* LiveBroadcast */,
+				D75FFDF320EDE96D002D52CD /* Login */,
+				D75FFDE320EDE96D002D52CD /* News */,
+				D75FFDE720EDE96D002D52CD /* PersonCenter */,
+				D75FFDDF20EDE96D002D52CD /* ShoppingMall */,
+				D75FFDDB20EDE7F8002D52CD /* Base */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		D75FFDF820EDE97C002D52CD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D75FFDF920EDE985002D52CD /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
 				D75FFDC220EDE54A002D52CD /* AppDelegate.h */,
 				D75FFDC320EDE54A002D52CD /* AppDelegate.m */,
 				D75FFDC520EDE54A002D52CD /* ViewController.h */,
@@ -67,11 +318,10 @@
 				D75FFDC820EDE54A002D52CD /* Main.storyboard */,
 				D75FFDCE20EDE54A002D52CD /* Assets.xcassets */,
 				D75FFDD020EDE54A002D52CD /* LaunchScreen.storyboard */,
-				D75FFDD320EDE54A002D52CD /* Info.plist */,
 				D75FFDD420EDE54A002D52CD /* main.m */,
-				D75FFDCB20EDE54A002D52CD /* BWStarry1604C.xcdatamodeld */,
+				D75FFDFA20EDE9CA002D52CD /* PrefixHeader.pch */,
 			);
-			path = BWStarry1604C;
+			path = OtherFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +537,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BWStarry1604C/Code/OtherFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +556,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BWStarry1604C/Code/OtherFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
