@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ThirdFoundation
+//  BWStarry1604C
 //
 //  Created by 李非非 on 2018/7/5.
 //  Copyright © 2018年 移动学院. All rights reserved.
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ThirdFoundation"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"BWStarry1604C"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.
