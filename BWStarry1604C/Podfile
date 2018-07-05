@@ -6,6 +6,12 @@ target 'BWStarry1604C' do
   # use_frameworks!
 
   # Pods for BWStarry1604C
-  
+  pod "AFNetworking"
+  pod "SDWebImage"
+  pod "MBProgressHUD"
+  pod "MJRefresh"
+  pod "MWPhotoBrowser"
+#  pod ""
 
 end
+#clang: error: linker command failed with exit code 1 (use -v to see invocation)

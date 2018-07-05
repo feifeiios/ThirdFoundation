@@ -359,6 +359,7 @@
 				D75FFDBB20EDE54A002D52CD /* Sources */,
 				D75FFDBC20EDE54A002D52CD /* Frameworks */,
 				D75FFDBD20EDE54A002D52CD /* Resources */,
+				8E7197AD614CDAB810C4472C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,6 +416,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8E7197AD614CDAB810C4472C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWStarry1604C/Pods-BWStarry1604C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E345F2E95E958FE200371060 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
