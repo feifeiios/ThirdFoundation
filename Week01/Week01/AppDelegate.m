@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <UMCommon/UMCommon.h>//导入友盟SDK类库
+#import <UMAnalytics/MobClick.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    /** 设置 统计场景类型，默认为普通应用统计：E_UM_NORMAL
+     @param 游戏统计设置为：E_UM_GAME.Dplus统计设置为：E_UM_DPLUS
+     */
+    [MobClick setScenarioType:E_UM_DPLUS];
+    //Crash 收集**注意：**    此函数需在common sdk初始化前适用，默认是开启状态
+    [MobClick setCrashReportEnabled:YES];
     //打开加密传输
     [UMConfigure setEncryptEnabled:YES];
     

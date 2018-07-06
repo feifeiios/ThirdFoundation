@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D76B14F720EFD4A800961A66 /* DetaileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76B14F620EFD4A800961A66 /* DetaileViewController.m */; };
 		D7E5541E20EF2E5900FD15B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E5541D20EF2E5900FD15B6 /* AppDelegate.m */; };
 		D7E5542120EF2E5900FD15B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E5542020EF2E5900FD15B6 /* ViewController.m */; };
 		D7E5542420EF2E5900FD15B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E5542220EF2E5900FD15B6 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D76B14F520EFD4A800961A66 /* DetaileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetaileViewController.h; sourceTree = "<group>"; };
+		D76B14F620EFD4A800961A66 /* DetaileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetaileViewController.m; sourceTree = "<group>"; };
 		D7E5541920EF2E5800FD15B6 /* Week01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E5541C20EF2E5900FD15B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7E5541D20EF2E5900FD15B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				D7E5542720EF2E5B00FD15B6 /* LaunchScreen.storyboard */,
 				D7E5542A20EF2E5B00FD15B6 /* Info.plist */,
 				D7E5542B20EF2E5B00FD15B6 /* main.m */,
+				D76B14F520EFD4A800961A66 /* DetaileViewController.h */,
+				D76B14F620EFD4A800961A66 /* DetaileViewController.m */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E5542120EF2E5900FD15B6 /* ViewController.m in Sources */,
+				D76B14F720EFD4A800961A66 /* DetaileViewController.m in Sources */,
 				D7E5542C20EF2E5B00FD15B6 /* main.m in Sources */,
 				D7E5541E20EF2E5900FD15B6 /* AppDelegate.m in Sources */,
 			);
