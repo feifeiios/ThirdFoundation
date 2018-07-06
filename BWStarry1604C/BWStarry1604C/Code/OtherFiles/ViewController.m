@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) AFHTTPSessionManager *session;
+
 @end
 
 @implementation ViewController

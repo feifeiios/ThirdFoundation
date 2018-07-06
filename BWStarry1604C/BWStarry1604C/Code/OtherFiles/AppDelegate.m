@@ -4,7 +4,7 @@
 //
 //  Created by 李非非 on 2018/7/5.
 //  Copyright © 2018年 移动学院. All rights reserved.
-//
+//  友盟统计 appkey 5b3de394a40fa30424000026
 
 #import "AppDelegate.h"
 
