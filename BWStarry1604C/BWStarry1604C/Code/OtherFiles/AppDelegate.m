@@ -7,6 +7,7 @@
 //  友盟统计 appkey 5b3de394a40fa30424000026
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    //1，给窗口跟控制器赋值
+    self.window.rootViewController = [[RootViewController alloc]init];
+    //2，设置窗口可见
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

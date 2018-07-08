@@ -8,8 +8,17 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define SCREEN_SIZE [UIScreen mainScreen].bounds.size
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_OFF_X SCREEN_WIDTH*0.8
 #import "Url.h"
 #import "AFNetworking.h"
+#import "BaseViewController.h"
+#import "BaseModel.h"
+
 //#import "UIImageV"
 //#import ""
 // Include any system framework and library headers here that should be included in all compilation units.

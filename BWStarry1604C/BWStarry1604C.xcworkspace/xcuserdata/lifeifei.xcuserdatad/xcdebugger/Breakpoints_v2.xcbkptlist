@@ -10,29 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BWStarry1604C/Code/OtherFiles/AppDelegate.m"
-            timestampString = "552718245.910952"
+            timestampString = "552763292.7758681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BWStarry1604C/Code/OtherFiles/AppDelegate.m"
-            timestampString = "552718245.911025"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-applicationWillTerminate:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -70,27 +54,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BWStarry1604C/Code/OtherFiles/AppDelegate.m"
-            timestampString = "552718245.9111871"
+            timestampString = "552763292.775975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BWStarry1604C/Code/OtherFiles/AppDelegate.m"
-            timestampString = "552718245.9112819"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "AppDelegate"
             landmarkType = "3">
          </BreakpointContent>
