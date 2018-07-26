@@ -25,6 +25,10 @@
 		D771E89720F2712D009D6C7F /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D771E89620F2712D009D6C7F /* NavigationController.m */; };
 		D771E89D20F27183009D6C7F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D771E89C20F27183009D6C7F /* RootViewController.m */; };
 		D771E8A020F272BC009D6C7F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D771E89F20F272BC009D6C7F /* TabBarController.m */; };
+		D794B1A020F2809000094FF8 /* PersonCenterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D794B19F20F2809000094FF8 /* PersonCenterModel.m */; };
+		D794B1A320F2817100094FF8 /* PersonCenterTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D794B1A220F2817100094FF8 /* PersonCenterTitleCell.m */; };
+		D794B1A620F2818400094FF8 /* PersonCenterIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D794B1A520F2818400094FF8 /* PersonCenterIconCell.m */; };
+		D794B1A920F281A000094FF8 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D794B1A820F281A000094FF8 /* BaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,14 @@
 		D771E89C20F27183009D6C7F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D771E89E20F272BC009D6C7F /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		D771E89F20F272BC009D6C7F /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		D794B19E20F2809000094FF8 /* PersonCenterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonCenterModel.h; sourceTree = "<group>"; };
+		D794B19F20F2809000094FF8 /* PersonCenterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterModel.m; sourceTree = "<group>"; };
+		D794B1A120F2817100094FF8 /* PersonCenterTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonCenterTitleCell.h; sourceTree = "<group>"; };
+		D794B1A220F2817100094FF8 /* PersonCenterTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterTitleCell.m; sourceTree = "<group>"; };
+		D794B1A420F2818300094FF8 /* PersonCenterIconCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonCenterIconCell.h; sourceTree = "<group>"; };
+		D794B1A520F2818400094FF8 /* PersonCenterIconCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonCenterIconCell.m; sourceTree = "<group>"; };
+		D794B1A720F281A000094FF8 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		D794B1A820F281A000094FF8 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +172,8 @@
 		D75FFDDE20EDE7FC002D52CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D794B1A720F281A000094FF8 /* BaseTableViewCell.h */,
+				D794B1A820F281A000094FF8 /* BaseTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +266,8 @@
 		D75FFDE920EDE96D002D52CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D794B19E20F2809000094FF8 /* PersonCenterModel.h */,
+				D794B19F20F2809000094FF8 /* PersonCenterModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -259,6 +275,10 @@
 		D75FFDEA20EDE96D002D52CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D794B1A120F2817100094FF8 /* PersonCenterTitleCell.h */,
+				D794B1A220F2817100094FF8 /* PersonCenterTitleCell.m */,
+				D794B1A420F2818300094FF8 /* PersonCenterIconCell.h */,
+				D794B1A520F2818400094FF8 /* PersonCenterIconCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -515,6 +535,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D794B1A920F281A000094FF8 /* BaseTableViewCell.m in Sources */,
 				D767F0B220F26F8F00F1695E /* BaseModel.m in Sources */,
 				D75FFDC720EDE54A002D52CD /* ViewController.m in Sources */,
 				D771E89420F270A9009D6C7F /* LiveBroadcaseViewController.m in Sources */,
@@ -525,9 +546,12 @@
 				D771E89D20F27183009D6C7F /* RootViewController.m in Sources */,
 				D767F0B520F26FD200F1695E /* LoginViewController.m in Sources */,
 				D75FFDD520EDE54A002D52CD /* main.m in Sources */,
+				D794B1A620F2818400094FF8 /* PersonCenterIconCell.m in Sources */,
 				D771E89720F2712D009D6C7F /* NavigationController.m in Sources */,
 				D771E8A020F272BC009D6C7F /* TabBarController.m in Sources */,
+				D794B1A320F2817100094FF8 /* PersonCenterTitleCell.m in Sources */,
 				D727B23B20F2701A00EBAB35 /* PersonCenterViewController.m in Sources */,
+				D794B1A020F2809000094FF8 /* PersonCenterModel.m in Sources */,
 				D75FFDCD20EDE54A002D52CD /* BWStarry1604C.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -671,6 +695,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25MMEQEWAK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BWStarry1604C/Code/OtherFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;
@@ -692,6 +717,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25MMEQEWAK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BWStarry1604C/Code/OtherFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = BWStarry1604C/Info.plist;

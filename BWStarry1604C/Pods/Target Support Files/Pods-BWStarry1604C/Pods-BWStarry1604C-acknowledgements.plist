@@ -132,6 +132,16 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright © 2012-2018 mob</string>
+			<key>License</key>
+			<string>Copyright © 2012-2018 mob.com</string>
+			<key>Title</key>
+			<string>MOBFoundation</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright (c) 2010 Michael Waterfall &lt;michaelwaterfall@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -229,6 +239,16 @@ THE SOFTWARE.
 			<string>MIT</string>
 			<key>Title</key>
 			<string>Weibo_SDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2012-2017 mob.com</string>
+			<key>License</key>
+			<string>Copyright © 2012-2017 mob.com</string>
+			<key>Title</key>
+			<string>mob_smssdk</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

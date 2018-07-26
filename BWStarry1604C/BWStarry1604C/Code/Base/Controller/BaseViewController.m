@@ -11,6 +11,7 @@
 #import "PersonCenterViewController.h"
 
 @interface BaseViewController ()
+
 {
     TabBarController *_tabbarVc;
     PersonCenterViewController *_personCenterVc;//个人中心
@@ -25,7 +26,38 @@
     self.view.backgroundColor = [UIColor grayColor];
     // Do any additional setup after loading the view.
     [self addViews];
+    [self addDatas];
 }
+#pragma mark - 添加TableView
+-(UITableView *)addTableView{
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc]initWithFrame:SCREEN_BOUNDS style:UITableViewStylePlain];
+        _tableView.backgroundColor = [UIColor clearColor];
+        _tableView.dataSource = self;
+        _tableView.delegate = self ;
+        [self.view addSubview:_tableView];
+        
+    }
+    
+    return _tableView;
+}
+#pragma mark - 添加数据
+-(void)addDatas{
+    if (_dataArray == nil) {
+        _dataArray = [NSMutableArray array];
+    }
+}
+#pragma mark - UITableViewDataSource , UITableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _dataArray == nil ? 0 : _dataArray.count;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return nil;
+}
+
 #pragma mark - 添加子空间
 -(void)addViews{
     

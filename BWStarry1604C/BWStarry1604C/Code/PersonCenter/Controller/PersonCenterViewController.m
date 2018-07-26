@@ -7,6 +7,12 @@
 //
 
 #import "PersonCenterViewController.h"
+#import "PersonCenterModel.h"
+#import "PersonCenterIconCell.h"
+#import "PersonCenterTitleCell.h"
+
+#define ICON_CELL_ID @"PersonCenterIconCellID"
+#define TITLE_CELL_ID @"PersonCenterTitleCellID"
 
 @interface PersonCenterViewController ()
 
@@ -25,6 +31,50 @@
     UIImageView *backgroundImageView = [[UIImageView alloc]initWithFrame:SCREEN_BOUNDS];
     backgroundImageView.image = [UIImage imageNamed:@"personcenter_background"];
     [self.view addSubview:backgroundImageView];
+    [self addTableView];
+    
+}
+-(void)addDatas{
+    [super addDatas];
+    PersonCenterModel *iconM = [PersonCenterModel personCenterModelWithDictionary:@{@"title":@"root_nav_left_menu",@"imageName":@"root_nav_left_menu",@"cellType":@1}];
+    PersonCenterModel *personMessageM = [PersonCenterModel personCenterModelWithDictionary:@{@"title":@"个人资料",@"imageName":@"",@"cellType":@0}];
+    PersonCenterModel *myCollectM = [PersonCenterModel personCenterModelWithDictionary:@{@"title":@"我的收藏",@"imageName":@"",@"cellType":@0}];
+    PersonCenterModel *aboutUsM = [PersonCenterModel personCenterModelWithDictionary:@{@"title":@"关于我们",@"imageName":@"",@"cellType":@0}];
+    [self.dataArray addObjectsFromArray:@[iconM,personMessageM,myCollectM,aboutUsM]];
+//    _dataArray add
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    PersonCenterModel *model = self.dataArray[indexPath.row];
+//    if (model.cellType == 0) {
+//        PersonCenterTitleCell *cell = [PersonCenterTitleCell tableViewCellWithTableView:tableView dequeueReusableCellWithIdentifier:TITLE_CELL_ID];
+//        //[PersonCenterTitleCell personCenterTitleCellWithTableView:tableView dequeueReusableCellWithIdentifier:TITLE_CELL_ID];
+//        return cell;
+//    }else if (model.cellType == 1){
+//        PersonCenterIconCell *cell = [PersonCenterIconCell tableViewCellWithTableView:tableView dequeueReusableCellWithIdentifier:ICON_CELL_ID];
+//        [cell cellForModel:model];
+//        return cell;
+//    }
+   
+    
+    switch (model.cellType) {
+        case 0:
+        {
+            //  标题
+            PersonCenterTitleCell *cell = [PersonCenterTitleCell personCenterTitleCellWithTableView:tableView dequeueReusableCellWithIdentifier:TITLE_CELL_ID];
+            return cell;
+        }
+            break;
+        case 1:
+            //  头像
+        {
+            
+        }
+            break;
+
+        default:
+            break;
+    }
+    return [[UITableViewCell alloc]init];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

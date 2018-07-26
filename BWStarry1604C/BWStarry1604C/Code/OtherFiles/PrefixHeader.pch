@@ -18,6 +18,7 @@
 #import "AFNetworking.h"
 #import "BaseViewController.h"
 #import "BaseModel.h"
+#import "BaseTableViewCell.h"
 
 //#import "UIImageV"
 //#import ""

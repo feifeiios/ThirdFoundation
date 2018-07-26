@@ -16,5 +16,8 @@ target 'BWStarry1604C' do
     pod 'UMCAnalytics'
     pod 'UMCSecurityPlugins'
     pod "Weibo_SDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
+    pod 'mob_smssdk'
+#    pod 'ZXingObjC', '3.2.1'
+#    pod 'ZXingObjC',:git => "https://github.com/TheLevelUp/ZXingObjC.git" #'~> 3.2.1'
 end
 #clang: error: linker command failed with exit code 1 (use -v to see invocation)

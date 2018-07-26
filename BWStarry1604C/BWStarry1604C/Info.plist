@@ -39,11 +39,19 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>MOBAppKey</key>
+	<string>d7ed5f1a6414</string>
+	<key>MOBAppSecret</key>
+	<string>398edb0caf7153a4cbf960d2f69adde4</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string></string>
+	<key>NSContactsUsageDescription</key>
+	<string></string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -65,16 +73,16 @@
 	</array>
 	<key>sina.com.cn</key>
 	<dict>
+		<key>NSExceptionMinimumTLSVersion</key>
+		<true/>
 		<key>NSIncludesSubdomains</key>
 		<true/>
 		<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
 		<true/>
-		<key>NSExceptionMinimumTLSVersion</key>
-		<true/>
-		<key>TLSv1.0</key>
-		<string></string>
 		<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
 		<false/>
+		<key>TLSv1.0</key>
+		<string></string>
 	</dict>
 </dict>
 </plist>
